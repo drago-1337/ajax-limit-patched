@@ -1,0 +1,16 @@
+{
+  "schemaVersion": 1,
+  "id": "november_ajax",
+  "version": "${version}",
+  "name": "November AJAX",
+  "description": "November AJAX, an open-weight LT4 sword AI that runs on your own computer, inside this jar. Spar him, let him play from your eyes, or watch him fight his rival MIRROR in five practice arenas. He plays in singleplayer, in a LAN world you host and on remote servers, and he is for testing in authorized environments only. O opens the panel, R lets him play.",
+  "authors": ["MinecraftCombatAI"],
+  "contact": { "homepage": "https://minecraftcombatai.com/november-ajax" },
+  "license": ["GPL-3.0-only", "LicenseRef-MCA-November-AJAX-Model-Licence"],
+  "icon": "assets/november_ajax/icon.png",
+  "environment": "client",
+  "entrypoints": { "client": ["com.minecraftcombatai.novemberajax.AjaxMod"] },
+  "depends": { "fabricloader": ">=0.19.2", "fabric-api": "*", "minecraft": "~26.1.2", "java": ">=25" },
+  "mixins": ["november_ajax.mixins.json"]
+}
+

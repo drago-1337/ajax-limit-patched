@@ -1,0 +1,1 @@
+{"required":true,"minVersion":"0.8","package":"com.minecraftcombatai.novemberajax.mixin","compatibilityLevel":"JAVA_25","client":["LocalPlayerMixin","PlayerInfoMixin","BotArmourMixin"],"injectors":{"defaultRequire":1}}
