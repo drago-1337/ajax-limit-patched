@@ -1,0 +1,136 @@
+MCA NOVEMBER AJAX MODEL LICENCE
+Version 1.0 -- 14 November 2026
+
+Licensor:  Skorchekd, ApocalypseGamer1, Crazyon and centerx, the holders of MCA, together
+           trading as MCA - Minecraft Combat AI ("we", "us", "our")
+           Contact: https://minecraftcombatai.com/
+Model:     the November AJAX model file ajax-open-0001.ajx, as shipped in the November AJAX
+           mod jar and in its official repository
+
+The Model is NOT covered by the GNU General Public License that applies to the November AJAX
+code. By downloading, installing or using the Model you agree to this Licence. If you do not
+agree, do not use it.
+
+IN SHORT (this summary is for convenience; the numbered sections are what bind you):
+  - Open weights: free to download, run and study, for personal, non-commercial use.
+  - Only in your own singleplayer practice, never against real players or on servers.
+  - Never train another model from it, fine-tune it or ship a modified version.
+  - Never sell it or re-host it on its own.
+
+
+1. DEFINITIONS
+
+"Model" means the file named above and any copy, conversion, quantisation, fine-tune,
+translation or other modification of it, in any form, including any form reconstructed from
+the running program or from the Model's behaviour.
+
+"Outputs" means anything the Model produces, including actions, probabilities and internal
+activations.
+
+"November AJAX" means the November AJAX mod in the official repository, including versions of
+its GPL-licensed code that you or others have modified.
+
+"Distillation" means using the Model or its Outputs, directly or indirectly, as data, labels,
+a teacher or a reference for the purpose of creating, training, fine-tuning or evaluating any
+other model, bot or system, including by querying the Model to reconstruct its behaviour.
+
+
+2. WHAT YOU MAY DO
+
+Subject to your full compliance with this Licence, we grant you a personal, non-exclusive,
+non-transferable, revocable, royalty-free licence to:
+  (a) download the Model from the official November AJAX repository or from
+      minecraftcombatai.com, as part of the November AJAX mod;
+  (b) run it, unmodified, with November AJAX on computers you own or control, in singleplayer
+      worlds on that computer, for your own non-commercial practice, learning and
+      entertainment;
+  (c) open, read and study the Model file and its numbers, for your own non-commercial
+      learning and research, and publish what you learn, provided you do not publish the
+      Model itself or a substantial part of it; and
+  (d) share screenshots, recordings and write-ups of your own play, non-commercially.
+Every right not expressly granted is reserved by us.
+
+
+3. NO USE AGAINST REAL PLAYERS
+
+You must not use the Model, its Outputs or anything built from them to play, aim, move or
+decide for anyone on a multiplayer server, a LAN world joined by other people, or in any match
+against a real player, or to gain an advantage in such play. The Model is a practice partner.
+
+
+4. NO COMMERCIAL USE
+
+You must not use the Model or its Outputs for any commercial purpose, including selling,
+renting or licensing it, charging for access to it or anything it powers, bundling it with
+any product, client, mod pack or launcher, or using it for or on behalf of any company, server
+network or team, unless we have agreed in writing.
+
+
+5. NO DISTILLATION OR MODIFIED VERSIONS
+
+You must not, and must not help anyone else to:
+  (a) perform, enable or permit Distillation;
+  (b) fine-tune, retrain, merge, adapt or create derivative works of the Model, or use,
+      share or publish any modified, converted or quantised version of it;
+  (c) remove, alter or obscure any notice, licence text, credit, version information or other
+      identifying information in it.
+Reading the file to understand how it works, as permitted in section 2(c), is not a breach of
+this section.
+
+
+6. NO SEPARATE REDISTRIBUTION
+
+You must not upload, post, mirror, re-host, sell or otherwise make the Model available on its
+own or outside an unmodified copy of the November AJAX mod jar or its official repository,
+including in mod packs, launchers, file lockers, model hubs or datasets.
+
+
+7. OWNERSHIP
+
+The Model is and remains our property and is protected by copyright and other laws. This
+Licence is a licence, not a sale. If you send us feedback or suggestions, we may keep and use
+them without any obligation to you.
+
+
+8. TERMINATION
+
+This Licence ends automatically and immediately if you break any of its terms. When it ends,
+you must stop using the Model and delete every copy you have. Sections 3 to 7 and 9 to 12
+survive the end of this Licence.
+
+
+9. NO WARRANTY
+
+THE MODEL IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING ANY
+WARRANTY OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE, NON-INFRINGEMENT OR ACCURACY.
+
+
+10. LIMITATION OF LIABILITY
+
+TO THE FULLEST EXTENT PERMITTED BY LAW, WE WILL NOT BE LIABLE FOR ANY INDIRECT, INCIDENTAL,
+SPECIAL, CONSEQUENTIAL OR PUNITIVE DAMAGES, OR FOR ANY LOSS OF DATA, ACCOUNTS, RANKS,
+REPUTATION OR ACCESS TO ANY SERVER OR SERVICE, ARISING OUT OF OR RELATED TO THE MODEL OR THIS
+LICENCE. Nothing in this Licence limits liability that cannot be limited by law, or any rights
+you have as a consumer that cannot be waived.
+
+
+11. YOUR RESPONSIBILITY
+
+You are solely responsible for how you use November AJAX and the Model and for complying with
+the Minecraft End User Licence Agreement and the rules of any server you play on.
+
+
+12. GENERAL
+
+(a) The Model and November AJAX are not official Minecraft products and are not approved by or
+    associated with Mojang Studios or Microsoft. "Minecraft" is a trademark of Mojang Studios.
+(b) If any part of this Licence is unenforceable, it is limited to the minimum extent
+    necessary and the rest remains in force. If we do not enforce a term straight away, we
+    have not waived it.
+(c) We may publish new versions of this Licence. A new version applies to Model versions
+    released with it.
+(d) This Licence is governed by the laws of the United Kingdom, and the courts of the United
+    Kingdom have jurisdiction, except where consumer law gives you the right to bring
+    proceedings where you live.
+(e) Questions about this Licence, or requests for permission outside it:
+    https://minecraftcombatai.com/

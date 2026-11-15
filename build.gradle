@@ -1,0 +1,54 @@
+plugins {
+    id 'net.fabricmc.fabric-loom' version "${loom_version}"
+}
+
+// November AJAX: the Fabric mod with AJAX's open-weight model (src/main/resources/assets/november_ajax/model).
+layout.buildDirectory = file("build/release")
+
+version = project.mod_version
+group = project.maven_group
+
+base {
+    archivesName = "november-ajax"
+}
+
+repositories {
+    mavenCentral()
+}
+
+dependencies {
+    minecraft "com.mojang:minecraft:${project.minecraft_version}"
+    implementation "net.fabricmc:fabric-loader:${project.loader_version}"
+    implementation "net.fabricmc.fabric-api:fabric-api:${project.fabric_version}"
+}
+
+loom {
+    runs {
+        client {
+            if (project.hasProperty('quickPlay')) programArgs '--quickPlaySingleplayer', project.quickPlay
+        }
+    }
+}
+
+processResources {
+    def props = [version: project.version]
+    inputs.properties props
+    filesMatching('fabric.mod.json') { expand props }
+    from('LICENSE') { into('november_ajax'); rename { 'LICENSE.txt' } }
+    from('LICENSE-MODEL') { into('november_ajax'); rename { 'LICENSE-MODEL.txt' } }
+    from('COPYRIGHT.md') { into('november_ajax') }
+}
+
+tasks.withType(JavaCompile).configureEach {
+    options.encoding = 'UTF-8'
+    options.release.set(25)
+}
+
+java {
+    sourceCompatibility = JavaVersion.VERSION_25
+    targetCompatibility = JavaVersion.VERSION_25
+}
+
+jar {
+    from(files('LICENSE', 'LICENSE-MODEL', 'COPYRIGHT.md')) { into('META-INF') }
+}
